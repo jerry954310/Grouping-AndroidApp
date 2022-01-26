@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:cardElevation="6dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+
+
+            >
+
+
+            <ImageButton
+                android:id="@+id/imageButton82"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+
+                android:src="@drawable/picture"></ImageButton>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="在想些什麼呢？"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:gravity="top"
+                android:hint="請上傳商品照片\n\n發文不得超過四行,且須註記:\n售價/數量/商品使用時間\n*發文不符合標準者將會被刪文"
+                >
+
+            </EditText>
+
+
+            <Button
+                android:id="@+id/updateBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:text="發布貼文"
+                android:textColor="#FFFFFF"></Button>
+
+            <TextView
+                android:id="@+id/backBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回上一頁"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+
+                ></TextView>
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loginapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Grouping"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Widget.AppCompat.ActionBar">
+        <activity android:name=".manual"></activity>
+        <activity android:name=".CommentsActivity3" />
+        <activity android:name=".ClickPostActivity3" />
+        <activity android:name=".Postsellactivity3" />
+        <activity android:name=".Post_Sell3" />
+        <activity android:name=".CommentsActivity2" />
+        <activity android:name=".ClickPostActivity2" />
+        <activity android:name=".Postsellactivity2" />
+        <activity android:name=".Post_Sell2" />
+        <activity android:name=".CommentsActivity" />
+        <activity android:name=".ClickPostActivity" />
+        <activity android:name=".feedback" />
+        <activity android:name=".about_us" />
+        <activity android:name=".Post_Sell" />
+        <activity android:name=".Postsellactivity" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

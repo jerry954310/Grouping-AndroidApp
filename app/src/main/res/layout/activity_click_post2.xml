@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClickPostActivity">
+
+    <ImageView
+        android:id="@+id/clcik_post_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/picture" />
+
+    <TextView
+        android:id="@+id/click_post_description2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="359dp"
+        android:text="Post description"
+        android:textSize="20sp"
+        android:background="@drawable/storke2"
+        />
+    <Button
+        android:id="@+id/edit_post_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/button"
+        android:text="編輯貼文"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:id="@+id/delete_post_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/button"
+        android:text="刪除貼文" />
+</RelativeLayout>
